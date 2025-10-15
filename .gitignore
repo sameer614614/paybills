@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+.env
+.env.*
+pnpm-lock.yaml
+yarn.lock
+.eslintcache
+coverage
+.vscode
+.idea
+*.tsbuildinfo

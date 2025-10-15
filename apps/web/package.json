@@ -1,0 +1,35 @@
+{
+  "name": "paybills-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.6",
+    "@types/react-dom": "^18.3.2",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "^10.4.20",
+    "caniuse-lite": "^1.0.30001646",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "postcss": "^8.4.41",
+    "esbuild": "^0.21.5",
+    "@esbuild/linux-x64": "^0.21.5",
+    "rollup": "^4.20.0",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1",
+    "vitest": "^2.0.5"
+  }
+}
